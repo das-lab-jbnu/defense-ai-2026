@@ -2,32 +2,81 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>방산인공지능개론 2026</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <p>DAS Lab (Defense & Advanced Security)</p>
-        <h1>방산인공지능개론 (Introduction to Defense AI)</h1>
+<body class="home-page">
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="DAS Lab Home">
+            <img src="assets/das-logo.png" alt="DAS Lab logo">
+            <span>DAS Lab</span>
+        </a>
+        <nav class="top-nav" aria-label="Primary navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="syllabus.html">Syllabus</a>
+            <a href="calendar.html">Calendar</a>
+            <a href="project.html">Project</a>
+        </nav>
     </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="syllabus.html">Syllabus</a>
-        <a href="calendar.html">Calendar</a>
-        <a href="project.html">Project</a>
-    </nav>
 
-    <section>
-        <h2>Welcome</h2>
-        <p>본 강의는 전북대학교 방산첨단보안연구실(DAS Lab)에서 진행하는 강의로, 딥러닝의 기초 이론을 학습하고 이를 방산 도메인에 적용한 최신 논문들을 분석합니다. 최종적으로 학생들이 직접 AI 기술을 활용한 연구 논문을 작성해 보는 것을 목표로 합니다.</p>
-        
-        <h2>Main Textbooks</h2>
-        <div class="textbook-info">
-            <p><strong>주교재:</strong> <a href="https://d2l.ai/" target="_blank">Dive into Deep Learning (D2L)</a> - Aston Zhang et al.</p>
-            <p><strong>부교재:</strong> <a href="https://deeplearningwithpython.io/" target="_blank">Deep Learning with Python (3rd Edition) - François Chollet & Matthew Watson</p>
-        </div>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Defense &amp; Advanced Security Lab</p>
+                <h1>방산인공지능개론 2026</h1>
+                <p class="hero-copy">
+                    딥러닝의 핵심 원리를 배우고, 최신 연구 논문을 읽으며, 방산 및 보안 문제를 AI 관점에서 직접 설계해보는 연구 중심 강의입니다.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="calendar.html">강의 일정 보기</a>
+                    <a class="button secondary" href="project.html">프로젝트 안내</a>
+                </div>
+            </div>
+            <div class="hero-panel" aria-label="Course highlights">
+                <img src="assets/das-logo.png" alt="DAS Lab emblem">
+                <div>
+                    <strong>2026 Spring</strong>
+                    <span>Introduction to Defense AI</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="overview-grid" aria-label="Course overview">
+            <article>
+                <span class="card-kicker">Lecture</span>
+                <h2>딥러닝 기초</h2>
+                <p>D2L 교재를 중심으로 모델, 학습, CNN 등 AI의 핵심 구조를 차근차근 다룹니다.</p>
+            </article>
+            <article>
+                <span class="card-kicker">Seminar</span>
+                <h2>논문 세미나</h2>
+                <p>국내외 주요 학회 논문을 읽고 연구 질문, 방법론, 실험 설계를 함께 분석합니다.</p>
+            </article>
+            <article>
+                <span class="card-kicker">Project</span>
+                <h2>연구 보고서</h2>
+                <p>직접 AI 문제를 정의하고 실험 결과를 논문 형식의 최종 보고서로 완성합니다.</p>
+            </article>
+        </section>
+
+        <section class="content-band">
+            <div>
+                <p class="eyebrow">Main Textbooks</p>
+                <h2>주교재와 참고자료</h2>
+            </div>
+            <div class="resource-list">
+                <a href="https://d2l.ai/" target="_blank" rel="noopener">
+                    <strong>Dive into Deep Learning</strong>
+                    <span>Aston Zhang et al.</span>
+                </a>
+                <a href="https://deeplearningwithpython.io/" target="_blank" rel="noopener">
+                    <strong>Deep Learning with Python, 3rd Edition</strong>
+                    <span>Francois Chollet &amp; Matthew Watson</span>
+                </a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 DAS Lab. All rights reserved.</p>
