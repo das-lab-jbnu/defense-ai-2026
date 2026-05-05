@@ -64,15 +64,16 @@ body:not(.home-page) > header {
 .brand {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
     color: var(--ink);
     font-weight: 800;
+    font-size: 1.35rem;
     letter-spacing: 0;
 }
 
 .brand img {
-    width: 48px;
-    height: 48px;
+    width: 72px;
+    height: 72px;
     object-fit: contain;
 }
 
@@ -396,6 +397,16 @@ footer {
         min-height: 36px;
         padding: 7px 10px;
         font-size: 0.92rem;
+    }
+
+    .brand {
+        gap: 12px;
+        font-size: 1.16rem;
+    }
+
+    .brand img {
+        width: 58px;
+        height: 58px;
     }
 
     .hero h1 {
